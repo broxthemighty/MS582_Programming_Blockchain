@@ -33,7 +33,7 @@
 						"type": "address"
 					}
 				],
-				"name": "productAdded",
+				"name": "ProductAdded",
 				"type": "event"
 			},
 			{
@@ -52,7 +52,7 @@
 						"type": "address"
 					}
 				],
-				"name": "productPurchased",
+				"name": "ProductPurchased",
 				"type": "event"
 			},
 			{
@@ -122,13 +122,17 @@
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Sell available products",
 			"kind": "dev",
 			"methods": {},
+			"title": "Marketplace",
 			"version": 1
 		},
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "Created by Matt Lindborg",
 			"version": 1
 		}
 	},
@@ -149,11 +153,11 @@
 	},
 	"sources": {
 		"contracts/Marketplace.sol": {
-			"keccak256": "0x398b49591844011cf07d7f5e8fe3b5a613816c41914f3d242b1a311b8aab5a7f",
+			"keccak256": "0x490bcef846de6187337c8d91be4905a1af7897129f128d6e5654a90007628f26",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://92b16d679f8fd98e101a4cc52852e0cb1a94cc6d020ea0ef271f0031c25f7cdd",
-				"dweb:/ipfs/QmTkZKZAL6v2N1VWsEPSh7fnqkmzqLSdDmkVVX2ZzahD17"
+				"bzz-raw://fb3da40b723b011c30c33e86ca020e39acecfb34471c425e7b5ad84221d5fd85",
+				"dweb:/ipfs/QmZp2w3ZQJicJCEtjoeVYPbsFwaa1VhqAXpALmhhwKavqi"
 			]
 		}
 	},
