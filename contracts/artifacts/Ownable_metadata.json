@@ -12,13 +12,17 @@
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Student Management System with Ownership and inheritance",
 			"kind": "dev",
 			"methods": {},
+			"title": "Ownable",
 			"version": 1
 		},
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "Created by Matt Lindborg",
 			"version": 1
 		}
 	},
@@ -39,11 +43,11 @@
 	},
 	"sources": {
 		"contracts/Ownable.sol": {
-			"keccak256": "0xec78af8d7f645b15e8623799d6b0d3ce6dbec47e47cdffab5ab56c7f3caec705",
+			"keccak256": "0x8cd62d4102f9c053fc23d40423108012f7a8709f006dbf3bd3a202070a8ecaf8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d33fbc33b4de0554dd0ca9297cb306299407d6e769c180a39abaa76efb425125",
-				"dweb:/ipfs/QmWfrJrxD8WA5H8K13i6AVWLmm6Fsqj7BL4GYpNBfmTXRd"
+				"bzz-raw://87a167c5645b93a83160e8bf691e4bf00231e57e7e8df399355e67551f57842e",
+				"dweb:/ipfs/QmV3hdFuRpBUNR94TJdBov8jpfbtPoj8EYugkBtgWEpXd6"
 			]
 		}
 	},
