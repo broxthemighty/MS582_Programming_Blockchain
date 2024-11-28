@@ -2,6 +2,12 @@
 
 pragma solidity >=0.8.2 <0.9.0; 
 
+/**Created by Matt Lindborg
+ * @title Ownable
+ * @dev Student Management System with Ownership and inheritance
+ * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
+ */
+
 contract Ownable {
 
     address owner;
