@@ -43,7 +43,7 @@ contract Lottery {
     // select the _winner from _ and try to pay them
     function selectWinner() public {
         // choose a _winner among the _
-        //require(block.timestamp > _, "Cannot select a _winner before the deadline.");
+        require(block.timestamp > _ticketPurchaseDeadline, "Cannot select a _winner before the deadline.");
         require(_participants.length > 0, "No _ in the lottery.");
         require(_winner == address(0), "Winner has already been selected.");
 

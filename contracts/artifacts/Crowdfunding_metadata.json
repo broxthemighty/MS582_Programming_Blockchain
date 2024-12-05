@@ -185,11 +185,11 @@
 	},
 	"sources": {
 		"contracts/DecentralizedCrowdfunding.sol": {
-			"keccak256": "0x08ea461586e61ca402c93c24d1622cce62d74ef13aad91ca555bf89b5d33f717",
+			"keccak256": "0x6a03438804c1fe542b329f4927368f6094a5699da7efc83299eb4ddd444f92d4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bac43ffd5c5ee61da238d965625b7f8d0dec8e1aa2b76db7a78f81bba745346e",
-				"dweb:/ipfs/QmSmXe5NieLEZ5Dsbzn6bf7PcCb7TGhGCCWN2xCVfWzUTN"
+				"bzz-raw://8e1b4363593dcd8aa5bf8249f6e9ea3956679e421af1b99f8a311b162e5a7859",
+				"dweb:/ipfs/QmcKTeeR3ChKA2VhSxPunFLFR1fBj55wLBDvUC9wnppwNy"
 			]
 		}
 	},

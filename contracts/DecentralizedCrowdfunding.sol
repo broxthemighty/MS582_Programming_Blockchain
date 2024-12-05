@@ -28,7 +28,9 @@ contract Crowdfunding {
     // event for when a project is completed
     event ProjectCompleted(uint256 projectId);
 
+    // commented out array version of projects.
     //Project[] projects;
+
     // map for the project collection
     mapping(uint256 => Project) private projects;
 
@@ -38,6 +40,7 @@ contract Crowdfunding {
     // create the project and add it to the map
     function createProject(string memory _name, uint256 _goalAmount) public {
         
+        // commented out array version of projects.
         /*projects.push(Project({
             id: projectCount,
             name: _name,

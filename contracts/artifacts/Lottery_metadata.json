@@ -154,11 +154,11 @@
 	},
 	"sources": {
 		"contracts/LotteryContract.sol": {
-			"keccak256": "0x7a9a9e9ad4f06f2ca32b9bd87181b6f3878ca2a11907dad4c961eefa0d430ea4",
+			"keccak256": "0x9bad4f9df668d9b68938e5eb4fd5efeb636c0dbf635d74d80ca823ecfdc6d497",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2b9e21eb7403e4c8d33aa00241a14c1ef2d30c1dc01125183313e83f930ae407",
-				"dweb:/ipfs/QmNiyDifiZKbr48sS7GpLXD1VTfD6BjaTq51vQSMTZwzjD"
+				"bzz-raw://b5d3c5194d103fee63af558c3fee497e3f383e8573ccaf8d9ab314c9a8c48286",
+				"dweb:/ipfs/QmPC9uVTstBdvii48VuthR4Qx3JBbsV3zdfMKN4jPEpHHQ"
 			]
 		}
 	},
