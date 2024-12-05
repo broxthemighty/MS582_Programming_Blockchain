@@ -1,8 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.2 <0.9.0;
 
+/**Created by Matt Lindborg
+ * UAT MS582 Week 5
+ * @title DecentralizedCrowdfunding
+ * @dev acceptance, storage, and payout for funding of public projects
+ * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
+ */
+
 contract Crowdfunding {
 
+    // Project Struct
     struct Project {
         uint256 id;
         string name;

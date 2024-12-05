@@ -154,13 +154,17 @@
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "acceptance, storage, and payout for funding of public projects",
 			"kind": "dev",
 			"methods": {},
+			"title": "DecentralizedCrowdfunding",
 			"version": 1
 		},
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "Created by Matt Lindborg UAT MS582 Week 5",
 			"version": 1
 		}
 	},
@@ -181,11 +185,11 @@
 	},
 	"sources": {
 		"contracts/DecentralizedCrowdfunding.sol": {
-			"keccak256": "0x0837c7d13f2006f8ecb0cc26b03d3fa9b99ea010eb59cb679c7e0c7ccca83588",
+			"keccak256": "0x08ea461586e61ca402c93c24d1622cce62d74ef13aad91ca555bf89b5d33f717",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://926d5ba35f1fd8ca8741f37fbcb5db187f19f43382ddcfa992160b928797b38d",
-				"dweb:/ipfs/QmZsvqqDPLt6AFgsEYssjjgQrbjJwxRCaXnk6YpVGjtB24"
+				"bzz-raw://bac43ffd5c5ee61da238d965625b7f8d0dec8e1aa2b76db7a78f81bba745346e",
+				"dweb:/ipfs/QmSmXe5NieLEZ5Dsbzn6bf7PcCb7TGhGCCWN2xCVfWzUTN"
 			]
 		}
 	},

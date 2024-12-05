@@ -158,7 +158,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MathOperations.sol": "MathAndCryptoFunctions"
+			"contracts/MathAndCryptoFunctions1.sol": "MathAndCryptoFunctions"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -172,12 +172,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MathOperations.sol": {
-			"keccak256": "0x142613348639406608bb095e62ae55f6a69827feb64a1b3ac8df007ffdcd9fc3",
+		"contracts/MathAndCryptoFunctions1.sol": {
+			"keccak256": "0x0205d13dcd601646986d91fe3a509dc59e88d24ae5a8c44c35253e8ae2873133",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fb591b6f5e0357fe55012d1c9bdda0343cbc27d89124d3eb30a55821907dc7fd",
-				"dweb:/ipfs/QmUwiHubnabaSsCfEogb4qA2ydNaX5A3rvzh9jSuFv1dg9"
+				"bzz-raw://898bbfde3a208e3216753c2f4af46a2ca070ce5174b17a706057f3a3e66b72b0",
+				"dweb:/ipfs/QmYcGCBXLLv5sfSrH48kvio6faxsYj7yw8wnqr9yaX8eqd"
 			]
 		}
 	},
