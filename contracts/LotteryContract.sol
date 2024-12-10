@@ -43,8 +43,8 @@ contract Lottery {
     // select the _winner from _ and try to pay them
     function selectWinner() public {
         // choose a _winner among the _
-        require(block.timestamp > _ticketPurchaseDeadline, "Cannot select a _winner before the deadline.");
-        require(_participants.length > 0, "No _ in the lottery.");
+        // require(block.timestamp > _ticketPurchaseDeadline, "Cannot select a winner before the deadline.");
+        require(_participants.length > 0, "No winner in the lottery.");
         require(_winner == address(0), "Winner has already been selected.");
 
         uint256 randomIndex = generateRandomNumber() % _participants.length;
@@ -53,7 +53,7 @@ contract Lottery {
 
         // transfer the total prize to the _winner
         (bool success, ) = _winner.call{value: address(this).balance}("");
-        require(success, "Failed to transfer prize to the _winner.");
+        require(success, "Failed to transfer prize to the winner.");
         emit PayoutFailed(_winner, address(this).balance);
     }
 
