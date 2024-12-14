@@ -13,22 +13,22 @@
 		],
 		"devdoc": {
 			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
-			"details": "Student Management System with Ownership and inheritance",
+			"details": "Safe Token Transfer",
 			"kind": "dev",
 			"methods": {},
-			"title": "Ownable",
+			"title": "SafeTokenTransfer",
 			"version": 1
 		},
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
-			"notice": "Created by Matt Lindborg",
+			"notice": "Created by Matt Lindborg UAT MS582 Week 6",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Ownable.sol": "Ownable"
+			"contracts/SafeTokenTransfer.sol": "Ownable"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -42,12 +42,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Ownable.sol": {
-			"keccak256": "0x8cd62d4102f9c053fc23d40423108012f7a8709f006dbf3bd3a202070a8ecaf8",
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0xe06a3f08a987af6ad2e1c1e774405d4fe08f1694b67517438b467cecf0da0ef7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://87a167c5645b93a83160e8bf691e4bf00231e57e7e8df399355e67551f57842e",
-				"dweb:/ipfs/QmV3hdFuRpBUNR94TJdBov8jpfbtPoj8EYugkBtgWEpXd6"
+				"bzz-raw://df6f0c459663c9858b6cba2cda1d14a7d05a985bed6d2de72bd8e78c25ee79db",
+				"dweb:/ipfs/QmeTTxZ7qVk9rjEv2R4CpCwdf8UMCcRqDNMvzNxHc3Fnn9"
+			]
+		},
+		"contracts/SafeTokenTransfer.sol": {
+			"keccak256": "0x63a3a1858f856c076b512017a0adf0d966e844ac3189af31c8811c3511095bd2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://69d964709d36ea11f8674b3a214699c0857e66f572dd66e39d4289ed70662166",
+				"dweb:/ipfs/QmYhFHFP3hobnLiZWzR5Et76kHxxQiQDD222uvHgSHatW4"
 			]
 		}
 	},
